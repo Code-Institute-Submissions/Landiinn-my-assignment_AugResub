@@ -4,7 +4,7 @@ body {
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(../style/img/background-css.jpg);
-
+    
 }
 
 nav {
@@ -135,7 +135,8 @@ footer {
     width: 100%;
     text-align: center;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    margin-bottom:0;
 }
 
 .hero-image2 {
@@ -198,4 +199,8 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.story {
+    margin: 80px auto;
 }
