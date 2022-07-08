@@ -16,4 +16,4 @@ My mentor also helped me with the first hero Image.
 
 I am proud of this project, considering I have never done anything like this before. And never thought I could do it.
 
-My code had been validated though https://validator.w3.org/.
+My code, html and css had been validated though https://validator.w3.org/.
