@@ -288,6 +288,7 @@ input[type=submit]:hover {
   @media screen and (max-width: 900px) 
    { .hero-image {
       height: 40em;
+      margin-top: 0;
     }
    }
 
