@@ -113,3 +113,27 @@ p {
 #storyswipe:hover {
     color: #00060a;
 }
+
+.button {
+    background:none;
+    color:white;
+    overflow:hidden;
+    border-width: 0;
+    border-style:none;
+
+}
+
+
+
+
+button > a {
+    color:white;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
