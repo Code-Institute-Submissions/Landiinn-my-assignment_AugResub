@@ -27,7 +27,7 @@ nav li {
 
 nav a {
     display: inline-block;
-    position: center;
+    
     padding: 15px 30px;
     color: white;
     text-decoration: none;
@@ -54,7 +54,7 @@ a:hover {
     margin-top:0;
 
     height: 25em;
-    width: cover;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img-2.jpg");
 
     height: 25em;
-    width: cover;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +185,7 @@ footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img3.jpg");
 
     height: 25em;
-    width: cover;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,7 +295,7 @@ input[type=submit]:hover {
    @media screen and (max-width: 900px) {
     nav {
       display:inline-block;
-      text-transform:auto;}
+      }
       
     nav li { 
         clear:both;
