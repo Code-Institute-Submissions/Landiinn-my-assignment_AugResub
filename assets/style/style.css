@@ -208,12 +208,10 @@ footer {
 .work {
     
     color: white;
-    width: 1000px;
-    position: center;
-    text-align: center;
     font-size: 45px;
     letter-spacing: 4px;
-    display: inline-flex;
+    margin-left:auto;
+    margin-right:auto;
 
 
 }
@@ -269,3 +267,21 @@ input[type=submit]:hover {
   width: 20%;
     
 }
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
+  }
