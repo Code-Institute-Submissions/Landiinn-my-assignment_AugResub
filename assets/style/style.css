@@ -204,3 +204,16 @@ footer {
 .story {
     margin: 80px auto;
 }
+
+.work {
+    
+    color: white;
+    width: 1000px;
+    position: center;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 4px;
+    display: inline-flex;
+
+
+}
