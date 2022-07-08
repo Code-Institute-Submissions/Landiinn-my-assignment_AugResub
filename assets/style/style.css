@@ -268,20 +268,36 @@ input[type=submit]:hover {
     
 }
 
+
 .column {
-    float: left;
     width: 25%;
-  }
+   float:left;
+    text-align: center;
+    
+
+    }
   
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   @media screen and (max-width: 900px) {
     .column {
       width: 100%;
     }
   }
+
+  @media screen and (max-width: 900px) 
+   { .hero-image {
+      height: 40em;
+    }
+   }
+
+   @media screen and (max-width: 900px) {
+    nav {
+      display:inline-block;
+      text-transform:auto;}
+      
+    nav li { 
+        clear:both;
+        float:left;
+        text-align:left;}
+    }
