@@ -7,6 +7,15 @@ body {
     
 }
 
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -80px;
+}
+
+.page-wrap:after {
+    display: block;
+}
+
 nav {
     width: 100%;
     line-height: 20px;
@@ -96,6 +105,9 @@ p {
     text-align:center;
     margin-left:20px;
     margin-right:20px;
+    background-color: black;
+    
+    
 }
 
 .section2 {
@@ -103,6 +115,7 @@ p {
     text-align:center;
     margin-left:20px;
     margin-right:20px;
+    background-color: black;
 }
 
 #storyswipe {
@@ -130,13 +143,14 @@ button > a {
     color:white;
 }
 
-footer {
+footer, .page-wrap:after {
     background-color: black;
     width: 100%;
     text-align: center;
     bottom: 0;
-    position: fixed;
+    position: sticky;
     margin-bottom:0;
+    height: 30px;
 }
 
 .hero-image2 {
