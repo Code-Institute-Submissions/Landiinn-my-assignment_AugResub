@@ -116,20 +116,21 @@ p {
 
 .section1 {
 
-    text-align:center;
-    margin-left:20px;
-    margin-right:20px;
-    background-color: black;
+    text-align:left;
+    align-items: center;
+    padding: 40px;
+
+    
     
     
 }
 
 .section2 {
 
-    text-align:center;
-    margin-left:20px;
-    margin-right:20px;
-    background-color: black;
+    text-align:left;
+    align-items: center;
+    padding:40px;
+   
 }
 
 #storyswipe {
@@ -164,7 +165,7 @@ footer, .page-wrap:after {
     bottom: 0;
     position: sticky;
     margin-bottom:0;
-    height: 60px;
+    height: 50px;
 }
 
 .hero-image2 {
@@ -387,12 +388,14 @@ input[type=submit]:hover {
 
     position:absolute ;
     margin-bottom: -200px;
-    background-color: aqua;
-    height: 60px;
+    background-color: black;
+    height: 50px;
 
 }
 
 .footer_text {
 
-    color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
 }
