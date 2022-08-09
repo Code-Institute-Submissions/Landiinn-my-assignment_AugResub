@@ -1,10 +1,22 @@
 body {
     height:100%;
+   
     margin:0;
+    padding: 0;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(../style/img/background-css.jpg);
+    font-family: Merriweather, Helvetica, Palatino;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../style/img/css_background1.jpg);
     
+}
+
+header {
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
 }
 
 .page-wrap {
@@ -82,8 +94,9 @@ a:hover {
 h1    {
     color: white;
     font-size: 54px;
-    text-decoration: underline;
+    
     text-decoration-color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -93,6 +106,7 @@ h2 {
     font-size: 46px;
     text-decoration: underline;
     text-decoration-color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -150,7 +164,7 @@ footer, .page-wrap:after {
     bottom: 0;
     position: sticky;
     margin-bottom:0;
-    height: 30px;
+    height: 60px;
 }
 
 .hero-image2 {
@@ -158,7 +172,7 @@ footer, .page-wrap:after {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img-2.jpg");
 
     height: 25em;
-   
+    margin-top: -4px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,9 +188,15 @@ footer, .page-wrap:after {
     color: white;
 }
 
-.story1 {
-    margin-left: 25px;
-    margin-right: 25px;
+.car-image {
+
+    margin: 0;
+    align-items: left;
+   
+}
+
+/* .story1 {
+    
 }
 
 .story2 {
@@ -192,7 +212,7 @@ footer, .page-wrap:after {
 .story4 {
     margin-left: 25px;
     margin-right: 25px;
-}
+} */
 
 .hero-image3 {
     
@@ -217,6 +237,9 @@ footer, .page-wrap:after {
 
 .story {
     margin: 80px auto;
+    padding: 40px;
+    text-align: left;
+    align-items: center;
 }
 
 .work {
@@ -297,16 +320,16 @@ input[type=submit]:hover {
     .column {
       width: 100%;
     }
-  }
 
-  @media screen and (max-width: 900px) 
-   { .hero-image {
-      height: 40em;
-      margin-top: 0;
+    header {
+        margin-bottom: -4px;
     }
-   }
-
-   @media screen and (max-width: 900px) {
+   
+    .hero-image {
+      height: 40em;
+      margin-top: -4;
+    }
+   
     nav {
       display:inline-block;
       }
@@ -321,3 +344,55 @@ input[type=submit]:hover {
         color:white;
         text-decoration: none;
     }
+
+    .car-image {
+        
+        width: 70vh;
+        padding: 40px;
+        align-items: left;
+    }
+
+@media screen and (max-width: 450px) {
+
+    .hero-image {
+
+        margin-top: -5px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+
+        width: 100%;
+        margin-bottom: -4px;
+        
+    }
+
+    .car-image {
+
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: 0;
+        float: left;
+
+        
+
+    }
+}
+
+.my_work_footer {
+
+    position:absolute ;
+    margin-bottom: -200px;
+    background-color: aqua;
+    height: 60px;
+
+}
+
+.footer_text {
+
+    color: blue;
+}
