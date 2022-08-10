@@ -114,6 +114,12 @@ p {
     font-size: 23px;
 }
 
+a {
+color: whitesmoke;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
 .section1 {
 
     text-align:left;
@@ -189,31 +195,14 @@ footer, .page-wrap:after {
     color: white;
 }
 
-.car-image {
+img .car-image {
 
-    margin: 0;
+    margin-left: 0;
     align-items: left;
+    width: 80%;
    
 }
 
-/* .story1 {
-    
-}
-
-.story2 {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.story3 {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.story4 {
-    margin-left: 25px;
-    margin-right: 25px;
-} */
 
 .hero-image3 {
     
@@ -236,13 +225,36 @@ footer, .page-wrap:after {
     color: white;
 }
 
-.story {
+
+
+
+
+
+
+ .story2 {
+
     margin: 80px auto;
     padding: 40px;
     text-align: left;
     align-items: center;
 }
 
+.story3 {
+
+    margin: 80px auto;
+    padding: 40px;
+    text-align: left;
+    align-items: center;
+}
+
+.story4 {
+
+    margin: 80px auto;
+    padding: 40px;
+    text-align: left;
+    align-items: center;
+
+}
 .work {
     
     color: white;
@@ -308,16 +320,21 @@ input[type=submit]:hover {
 
 
 .column {
-    width: 25%;
+    /* width: 25%;
    float:left;
-    text-align: center;
+    text-align: center; */
+
+    display:inline-block;
+    align-items: center;
+   padding: 40px;
+
     
 
     }
   
 
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1110px) {
     .column {
       width: 100%;
     }
@@ -339,7 +356,7 @@ input[type=submit]:hover {
         clear:both;
         float:left;
         text-align:left;}
-    }
+    
 
     a {
         color:white;
@@ -348,12 +365,22 @@ input[type=submit]:hover {
 
     .car-image {
         
-        width: 70vh;
+        width: 70%;
         padding: 40px;
         align-items: left;
     }
 
-@media screen and (max-width: 450px) {
+    a {
+        color: whitesmoke;
+            font-size: 23px;
+            text-decoration: underline;
+        }
+
+    nav {
+        display: none;
+    }
+  }
+@media screen and (max-width: 570px) {
 
     .hero-image {
 
@@ -373,11 +400,7 @@ input[type=submit]:hover {
 
     .car-image {
 
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        border-left: 0;
-        float: left;
+        width: 80%;
 
         
 
