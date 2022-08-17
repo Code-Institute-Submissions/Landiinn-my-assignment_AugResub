@@ -6,7 +6,7 @@ body {
     background-color: black;
     font-family: Merriweather, Helvetica, Palatino;
     font-weight: 600;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../style/img/css_background1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/css_background1.jpg);
     
 }
 
@@ -71,7 +71,7 @@ a:hover {
 
 .hero-image {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-img.jpg");
     margin-top:0;
 
     height: 25em;
@@ -239,7 +239,7 @@ footer .page-wrap:after {
 }
 .hero-image2 {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img-2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-img-2.jpg");
 
     height: 25em;
     margin-top: -4px;
@@ -269,7 +269,7 @@ img .car-image {
 
 .hero-image3 {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-img3.jpg");
 
     height: 25em;
 
