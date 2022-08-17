@@ -34,7 +34,7 @@ nav {
     background-color: black;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -194,8 +194,8 @@ button > a {
     color:white;
 }
 
-footer, .page-wrap:after {
-    background-color: black;
+footer .page-wrap:after {
+    background-color: blue;
     width: 100%;
     text-align: center;
     bottom: 0;
@@ -214,10 +214,18 @@ footer, .page-wrap:after {
 .my_work_footer {
 
     position: sticky;
+    margin-top: 20px;
     margin-bottom: -200px;
-    
+    background-color: black;
     height: 50px;
 
+}
+
+.info-footer {
+
+    background-color: black;
+    position: absolute;
+    margin-bottom:0;
 }
 
 .footer_text {
@@ -225,6 +233,7 @@ footer, .page-wrap:after {
     color: white;
     text-align: center;
     margin-top: 0px;
+    
 }
 .hero-image2 {
     
@@ -361,7 +370,6 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    /*background-color: #f2f2f2;*/
     padding: 20px;
 }
 
@@ -375,9 +383,6 @@ input[type=submit]:hover {
 
 
   @media screen and (max-width: 1235px) {
-    .column {
-      width: 100%;
-    }
 
     header {
         margin-bottom: -4px;
@@ -387,16 +392,23 @@ input[type=submit]:hover {
       height: 40em;
       margin-top: -4;
     }
+
+    
    
     nav {
-      display:inline-block;
+      
+        background-color: black
+      
       }
       
-    nav li { 
-        clear:both;
-        float:left;
-        text-align:left;}
-    
+    ul { 
+
+       padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       background-color: black;
+    }
 
     a {
         color:white;
@@ -439,9 +451,7 @@ input[type=submit]:hover {
             text-decoration: underline;
         }
 
-    nav {
-        display: none;
-    }
+    
 
     .footer-index {
 
@@ -449,6 +459,15 @@ input[type=submit]:hover {
         position: sticky;
         margin-bottom: -650px;
     }
+
+    .info-footer {
+
+        background-color: black;
+        position: sticky;
+        margin-bottom:0;
+    }
+
+
 
     .contactimg {
 
@@ -524,7 +543,7 @@ textarea {
     .footer-index {
 
         background-color: black;
-        position: absolute;
+        position: sticky;
         margin-bottom: -1200px;
     }
 }
