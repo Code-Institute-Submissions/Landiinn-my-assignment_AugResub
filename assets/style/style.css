@@ -185,6 +185,11 @@ color: whitesmoke;
     height: 20%; 
 }
 
+.seller {
+    width: 35%;
+    height: 20%;
+}
+
 button > a {
     color:white;
 }
@@ -195,10 +200,32 @@ footer, .page-wrap:after {
     text-align: center;
     bottom: 0;
     position: sticky;
-    margin-bottom:0;
+    margin-bottom: 0;
     height: 50px;
 }
 
+.footer-index {
+
+    background-color: black;
+    position: absolute;
+    margin-bottom: -340px;
+}
+
+.my_work_footer {
+
+    position: sticky;
+    margin-bottom: -200px;
+    
+    height: 50px;
+
+}
+
+.footer_text {
+
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
 .hero-image2 {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../style/img/hero-img-2.jpg");
@@ -345,7 +372,7 @@ input[type=submit]:hover {
   
 
 
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1235px) {
     .column {
       width: 100%;
     }
@@ -379,6 +406,24 @@ input[type=submit]:hover {
         width: 70%;
     }
 
+    .material-truck {
+
+        width: 70%;
+    }
+
+    .crane-truck {
+
+        width: 70%;
+    }
+
+    .safe-mount {
+        width: 70%;
+    }
+
+    .seller {
+        width: 70%;
+    }
+
     .car-image {
         
         width: 70%;
@@ -394,6 +439,13 @@ input[type=submit]:hover {
 
     nav {
         display: none;
+    }
+
+    .footer-index {
+
+        
+        position: sticky;
+        margin-bottom: -650px;
     }
   }
 @media screen and (max-width: 570px) {
@@ -423,20 +475,30 @@ input[type=submit]:hover {
 
         width: 80%;
      }
+
+     .material-truck {
+
+        width: 80%;
+    }
+
+    .crane-truck {
+
+        width: 80%;
+    }
+
+    .safe-mount {
+        width: 80%;
+    }
+
+    .seller {
+        width: 80%;
+    }
+
+    .footer-index {
+
+        background-color: black;
+        position: absolute;
+        margin-bottom: -1200px;
+    }
 }
 
-.my_work_footer {
-
-    position:absolute ;
-    margin-bottom: -200px;
-    background-color: black;
-    height: 50px;
-
-}
-
-.footer_text {
-
-    color: white;
-    text-align: center;
-    margin-top: 0px;
-}
