@@ -259,7 +259,7 @@ footer .page-wrap:after {
 img .car-image {
 
     margin-left: 0;
-    align-items: left;
+    
     width: 80%;
    
 }
@@ -390,7 +390,7 @@ input[type=submit]:hover {
    
     .hero-image {
       height: 40em;
-      margin-top: -4;
+      margin-top: -4px;
     }
 
     
@@ -442,7 +442,7 @@ input[type=submit]:hover {
         
         width: 70%;
         padding: 40px;
-        align-items: left;
+        
     }
 
     a {
