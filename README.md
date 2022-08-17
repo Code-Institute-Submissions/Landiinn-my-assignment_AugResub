@@ -34,4 +34,7 @@ My mentor also helped me with the first hero Image.
 
 I am proud of this project, considering I have never done anything like this before. And never thought I could do it.
 
-My code, html and css had been validated through https://validator.w3.org/.
+<img src="page_validator.png" width="50%">
+<img src="css_validator.png" width="50%">
+
+**My code, html and css had been validated through https://validator.w3.org/.**
