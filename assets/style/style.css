@@ -133,6 +133,14 @@ color: whitesmoke;
     text-decoration: underline;
 }
 
+.welcome-text {
+
+    padding:40px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
 .section1 {
 
     text-align:left;
@@ -408,6 +416,11 @@ input[type=submit]:hover {
 
   @media screen and (max-width: 1235px) {
 
+    .intro-img {
+
+        width: 70%;
+    }
+
     header {
         margin-bottom: -4px;
     }
@@ -517,6 +530,10 @@ textarea {
 comes below 570px */
 
 @media screen and (max-width: 570px) {
+
+    .intro-img {
+        width: 80%;
+    }
 
     .hero-image {
 
