@@ -1,6 +1,8 @@
 body {
+    
+    /* The body element. This is where we put our background to be set to all our pages */
+
     height:100%;
-   
     margin:0;
     padding: 0;
     background-color: black;
