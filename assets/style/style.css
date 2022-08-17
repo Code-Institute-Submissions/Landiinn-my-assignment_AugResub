@@ -10,6 +10,9 @@ body {
     
 }
 
+/* The header element is the ground for our nav bar and all the options there. Everything is set to 0 just to make sure the
+Nav bar covers the entire page and dont disturb the other elements. */
+
 header {
 
     padding: 0;
@@ -18,6 +21,9 @@ header {
     margin-top: 0;
     overflow: hidden;
 }
+
+/* The page wrap class was created as a trouble shoot for our footer. Just a safety procedure to make sure it functions properly and is placed
+after the text content, and not on it */
 
 .page-wrap {
     min-height: 100%;
@@ -46,6 +52,10 @@ nav li {
     display: inline;
 }
 
+/* This is what we will use to give our nav targets a nice white color whith a black background. The hover element is to
+give our buttons some life with the help of background color shift. This is to give it a "light" effect.
+This method was creating using youtube: https://www.youtube.com/watch?v=ex7jGbyFgpA as a guideline. */
+
 nav a {
     display: inline-block;
     
@@ -68,6 +78,9 @@ a:hover {
         0 0 40px,
         0 0 80px;
 }
+
+/* The hero image class, this, 2 and 3 are our main source of life on our pages. Same goes for the hero text.
+Using the linearGradient value gives the image a dark foggy effect, to make sure are text is nicely visible */
 
 .hero-image {
     
@@ -139,6 +152,11 @@ color: whitesmoke;
    
 }
 
+/* The storyswide id was created to make the user be able to quickly jump to the story page directly from the intro text.
+But to be able to blend in with the rest of the text, we need to style is the same way as our nav element.
+But since it is weitten as a A-element, the underline decoration is already there, to give the user a 
+heads up that this is a clickable button. */
+
 #storyswipe {
     font-weight: bold;
     color: whitesmoke;
@@ -157,12 +175,17 @@ color: whitesmoke;
 
 }
 
+/* This is where we gather all the text content as well as all image content on the work experience page, for 
+easier modification */
+
 .work-text {
 
     padding: 40px;
     text-align: left;
     align-items: center;
 }
+
+/* All the styling for the images on the work-experience page */
 
 .concrete-truck {
 
@@ -190,19 +213,13 @@ color: whitesmoke;
     height: 20%;
 }
 
+/* The styling for the clickable button appearing on all the hero images */
+
 button > a {
     color:white;
 }
 
-footer .page-wrap:after {
-    background-color: blue;
-    width: 100%;
-    text-align: center;
-    bottom: 0;
-    position: sticky;
-    margin-bottom: 0;
-    height: 50px;
-}
+/* The styling and correction for the footers */
 
 .footer-index {
 
@@ -329,6 +346,9 @@ img .car-image {
 
 }
 
+/* This is the styling for the form on the contact page, with a border-radius set to 20px, to give 
+the inputs some nice smooth corners */
+
 input[type=text],
 select,
 textarea {
@@ -344,6 +364,7 @@ textarea {
 
 }
 
+/* The styling for the submit button */
 
 input[type=submit] {
     position:static;
@@ -382,7 +403,8 @@ input[type=submit]:hover {
     
 }
   
-
+/* To make sure the website stays responsive, no matter what device, we set the media quary at a max width 
+1235px, just to make sure the site stays beautiful, no matter what device the user is operating */
 
   @media screen and (max-width: 1235px) {
 
@@ -490,6 +512,10 @@ textarea {
     resize: horizontal;
 }
   }
+
+/* If the user is using a phone, the site still needs it beauty, so we add some more changes in case the width 
+comes below 570px */
+
 @media screen and (max-width: 570px) {
 
     .hero-image {
