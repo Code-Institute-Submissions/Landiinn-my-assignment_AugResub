@@ -17,7 +17,7 @@ Must of the codes used where codes learned via Code Institute.
 <img src="/workspace/my-assignment/assets/style/img/page_2.png">
 
 My thoughts about this is that I wanted to test what you can do, and I want to share a short story about me at the same time.
-The power of being able to tell a story so easily by providing a link to a comlpetly personalized website as wonderful, and a great way yo learn about me. 
+The power of being able to tell a story so easily by providing a link to a comlpetly personalized website as wonderful, and a great way to learn about me. 
 
 <img src="/workspace/my-assignment/assets/style/img/page_3.png">
 
