@@ -1,5 +1,7 @@
 # André Landin.
 
+**This Project was created by André Landin, student of Code Institute**
+
 ## The project
 This project has been created in the purpose of learning **HTML/CSS**
 
