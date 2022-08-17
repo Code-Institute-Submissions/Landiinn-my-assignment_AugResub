@@ -157,8 +157,33 @@ color: whitesmoke;
 
 }
 
+.work-text {
 
+    padding: 40px;
+    text-align: left;
+    align-items: center;
+}
 
+.concrete-truck {
+
+    width: 55%;
+    height: 20%; 
+}
+
+.material-truck {
+    width: 55%;
+    height: 20%; 
+}
+
+.crane-truck {
+    width: 55%;
+    height: 20%; 
+}
+
+.safe-mount {
+    width: 55%;
+    height: 20%; 
+}
 
 button > a {
     color:white;
@@ -317,20 +342,6 @@ input[type=submit]:hover {
   width: 20%;
     
 }
-
-
-.column {
-    /* width: 25%;
-   float:left;
-    text-align: center; */
-
-    display:inline-block;
-    align-items: center;
-   padding: 40px;
-
-    
-
-    }
   
 
 
@@ -361,6 +372,11 @@ input[type=submit]:hover {
     a {
         color:white;
         text-decoration: none;
+    }
+
+    .concrete-truck {
+
+        width: 70%;
     }
 
     .car-image {
@@ -401,10 +417,12 @@ input[type=submit]:hover {
     .car-image {
 
         width: 80%;
+     }
 
-        
+     .concrete-truck {
 
-    }
+        width: 80%;
+     }
 }
 
 .my_work_footer {
