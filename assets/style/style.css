@@ -223,9 +223,11 @@ footer .page-wrap:after {
 
 .info-footer {
 
+    position: static;
+    margin-top: 150px;
+    margin-bottom:-20px;
     background-color: black;
-    position: absolute;
-    margin-bottom:0;
+    height: 50px;
 }
 
 .footer_text {
